@@ -1,0 +1,40 @@
+{
+  "uid" : "b6737cf12285dd9c",
+  "name" : "Demo test GitHub",
+  "historyId" : "github_test:github_test#Demo test GitHub",
+  "time" : {
+    "duration" : 8239
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "github_test"
+  }, {
+    "name" : "host",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "github_test"
+  }, {
+    "name" : "package",
+    "value" : "github_test"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b6737cf12285dd9c.json",
+  "parameterValues" : [ ]
+}

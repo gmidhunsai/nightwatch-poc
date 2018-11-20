@@ -1,0 +1,17 @@
+[ {
+  "uid" : "b6737cf12285dd9c",
+  "name" : "Demo test GitHub",
+  "time" : {
+    "duration" : 8239
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3eda53fc0e42384",
+  "name" : "Demo Google test",
+  "time" : {
+    "duration" : 7285
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

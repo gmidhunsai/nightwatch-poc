@@ -1,0 +1,33 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "github_test",
+    "children" : [ {
+      "name" : "Demo test GitHub",
+      "uid" : "b6737cf12285dd9c",
+      "parentUid" : "0d25a5d63783df2959abfac02b3dfef5",
+      "status" : "passed",
+      "time" : {
+        "duration" : 8239
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0d25a5d63783df2959abfac02b3dfef5"
+  }, {
+    "name" : "google_test",
+    "children" : [ {
+      "name" : "Demo Google test",
+      "uid" : "d3eda53fc0e42384",
+      "parentUid" : "01bd83c023f313ec09483909702cd70c",
+      "status" : "failed",
+      "time" : {
+        "duration" : 7285
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "01bd83c023f313ec09483909702cd70c"
+  } ]
+}

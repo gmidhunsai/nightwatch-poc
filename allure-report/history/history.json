@@ -1,0 +1,37 @@
+{
+  "google_test:google_test#Demo Google test" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d3eda53fc0e42384",
+      "status" : "failed",
+      "statusDetails" : "Timed out while waiting for element <button[name=btnG]> to be visible for 1000 milliseconds.",
+      "time" : {
+        "duration" : 7285
+      }
+    } ]
+  },
+  "github_test:github_test#Demo test GitHub" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b6737cf12285dd9c",
+      "status" : "passed",
+      "time" : {
+        "duration" : 8239
+      }
+    } ]
+  }
+}

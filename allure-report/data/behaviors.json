@@ -1,0 +1,25 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Demo test GitHub",
+    "uid" : "b6737cf12285dd9c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "duration" : 8239
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Demo Google test",
+    "uid" : "d3eda53fc0e42384",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "duration" : 7285
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

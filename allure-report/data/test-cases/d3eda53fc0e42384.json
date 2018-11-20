@@ -1,0 +1,46 @@
+{
+  "uid" : "d3eda53fc0e42384",
+  "name" : "Demo Google test",
+  "historyId" : "google_test:google_test#Demo Google test",
+  "time" : {
+    "duration" : 7285
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out while waiting for element <button[name=btnG]> to be visible for 1000 milliseconds.",
+  "statusTrace" : "    at Object.Demo Google test (/Users/kondasamy.j/Documents/Experiments/nightwatch/nightwatch-example/tests/e2e/google_test.js:7:14)\n    at process.internalTickCallback (internal/process/next_tick.js:70:11)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "google_test"
+  }, {
+    "name" : "host",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "google_test"
+  }, {
+    "name" : "package",
+    "value" : "google_test"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d3eda53fc0e42384.json",
+  "parameterValues" : [ ]
+}

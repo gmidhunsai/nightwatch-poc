@@ -1,0 +1,33 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "github_test",
+    "children" : [ {
+      "name" : "Demo test GitHub",
+      "uid" : "b6737cf12285dd9c",
+      "parentUid" : "ebb7ec3b78bd2d412c8f27a2d6fdf1d7",
+      "status" : "passed",
+      "time" : {
+        "duration" : 8239
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ebb7ec3b78bd2d412c8f27a2d6fdf1d7"
+  }, {
+    "name" : "google_test",
+    "children" : [ {
+      "name" : "Demo Google test",
+      "uid" : "d3eda53fc0e42384",
+      "parentUid" : "e85647afacf52dc8e6b2848d3b62db38",
+      "status" : "failed",
+      "time" : {
+        "duration" : 7285
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e85647afacf52dc8e6b2848d3b62db38"
+  } ]
+}

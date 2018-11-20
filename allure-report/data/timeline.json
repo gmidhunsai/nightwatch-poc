@@ -1,0 +1,29 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "",
+    "children" : [ {
+      "name" : "Demo test GitHub",
+      "uid" : "b6737cf12285dd9c",
+      "parentUid" : "45938a2650667c0bab99ee90a87b88f8",
+      "status" : "passed",
+      "time" : {
+        "duration" : 8239
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Demo Google test",
+      "uid" : "d3eda53fc0e42384",
+      "parentUid" : "45938a2650667c0bab99ee90a87b88f8",
+      "status" : "failed",
+      "time" : {
+        "duration" : 7285
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "45938a2650667c0bab99ee90a87b88f8"
+  } ]
+}
