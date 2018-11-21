@@ -3,7 +3,7 @@ var conf = require('../../nightwatch.conf.js');
 module.exports = {
   'Demo test GitHub': function (browser) {
     browser
-      .url('http://www.github.com/kondasamy')   // visit the url
+      .url('https://github.com/gmidhunsai')   // visit the url
       .waitForElementVisible('body'); // wait for the body to be rendered
       // check if we are seeing the Mobile Version of GitHub
       browser.element('css selector', '.switch-to-desktop', function(result) {
@@ -14,8 +14,8 @@ module.exports = {
       });
     // part two:
     browser
-      .assert.containsText('body', 'kondasamy') // assert body contains text
-      .saveScreenshot(conf.imgpath(browser) + 'kondasamy.png')
+      .assert.containsText('body', 'gmidhunsai') // assert body contains text
+      .saveScreenshot(conf.imgpath(browser) + 'gmidhunsai.png')
       .end();
     }
   };

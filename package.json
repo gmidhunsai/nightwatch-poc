@@ -16,14 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kondasamy/nightwatch-example.git"
+    "url": "https://github.com/gmidhunsai/nightwatch-poc.git"
   },
-  "author": "Kondasamy Jayaraman",
+  "author": "Midhun Sai",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/Kondasamy/nightwatch-example/issues"
+    "url": "https://github.com/gmidhunsai/nightwatch-poc/issues"
   },
-  "homepage": "https://github.com/Kondasamy/nightwatch-example#readme",
+  "homepage": "https://github.com/gmidhunsai/nightwatch-poc#readme",
   "dependencies": {
     "allure-commandline": "^2.8.1",
     "nightwatch": "^0.9.21",
