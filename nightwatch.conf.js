@@ -6,8 +6,9 @@ const SCREENSHOT_PATH = "./screenshots/" + PKG.version + "/";
 
 const config = { // we use a nightwatch.conf.js file so we can include comments and helper functions
   "src_folders": [
-    "test/e2e"     // we use '/test' as the name of our test directory by default. So 'test/e2e' for 'e2e'.
+    "tests/e2e"     // we use '/test' as the name of our test directory by default. So 'test/e2e' for 'e2e'.
   ],
+  "page_objects_path": "tests/pages",
   "output_folder": "./allure-results", // reports (test outcome) output by Nightwatch
   "selenium": {
     "start_process": true,

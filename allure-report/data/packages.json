@@ -5,7 +5,7 @@
     "name" : "github_test",
     "children" : [ {
       "name" : "Demo test GitHub",
-      "uid" : "b6737cf12285dd9c",
+      "uid" : "2bc3588870b287c3",
       "parentUid" : "ebb7ec3b78bd2d412c8f27a2d6fdf1d7",
       "status" : "passed",
       "time" : {
@@ -19,7 +19,7 @@
     "name" : "google_test",
     "children" : [ {
       "name" : "Demo Google test",
-      "uid" : "d3eda53fc0e42384",
+      "uid" : "5524240c01fc5d0d",
       "parentUid" : "e85647afacf52dc8e6b2848d3b62db38",
       "status" : "failed",
       "time" : {

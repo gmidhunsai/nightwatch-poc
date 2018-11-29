@@ -1,5 +1,5 @@
 [ {
-  "uid" : "b6737cf12285dd9c",
+  "uid" : "2bc3588870b287c3",
   "name" : "Demo test GitHub",
   "time" : {
     "duration" : 8239
@@ -7,7 +7,7 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d3eda53fc0e42384",
+  "uid" : "5524240c01fc5d0d",
   "name" : "Demo Google test",
   "time" : {
     "duration" : 7285
