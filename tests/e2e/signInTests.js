@@ -1,6 +1,6 @@
 module.exports = {
     
-    /*'Login with valid credentials': function(browser) {
+    'Login with valid credentials': function(browser) {
         signInPage = browser.page.loginPage()
         landingPage = browser.page.landingPage()
         browser.maximizeWindow()
@@ -10,7 +10,7 @@ module.exports = {
         landingPage.validateSignIn()
 
         browser.end()
-    },*/
+    },
 
     'Validate my account' : function(browser) {
         signInPage = browser.page.loginPage()
@@ -21,7 +21,7 @@ module.exports = {
         signInPage.navigate()
         .signIn();
         landingPage.validateSignIn()
-        browser.url(browser.launchUrl + 'account/')
+        .clickSettings();
         settingsPage.validateSettings()
 
         browser.end()
