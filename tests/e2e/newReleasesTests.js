@@ -35,7 +35,7 @@ module.exports = {
         .signIn();
         landingPage.clickNewComingSoonMovies();
         newComingSoonMoviesPage.validateHeader();
-        newComingSoonMoviesPage.validateWishlistText();
+        //newComingSoonMoviesPage.validateWishlistText();
         browser.end();
     },
 

@@ -1,5 +1,5 @@
 module.exports = {
-    "Validate movies functionality": function(browser) {
+    "Validate movies - At the Box functionality": function(browser) {
         signInPage = browser.page.loginPage()
         landingPage = browser.page.landingPage()
         moviesAtTheBoxPage = browser.page.moviesAtTheBoxPage()
@@ -12,45 +12,43 @@ module.exports = {
         moviesAtTheBoxPage.validateCurrentWindow();
         browser.end();
     },
-
-    "Validate movies OnDemand functionality": '' + function(browser) {
+    "Validate movies - On Demand functionality": function(browser) {
         signInPage = browser.page.loginPage()
         landingPage = browser.page.landingPage()
-        moviesOnDemand = browser.page.movies()
+        moviesOnDemandPage = browser.page.moviesOnDemandPage()
         browser.maximizeWindow()
 
         signInPage.navigate()
         .signIn();
         landingPage.clickMoviesOnDemand();
-        moviesOnDemand.validateHeader();
+        moviesOnDemandPage.validateHeader()
+        moviesOnDemandPage.validateCurrentWindow();
         browser.end();
     },
-
-    "Validate movies Collections functionality": '' + function(browser) {
+    "Validate movies - Collections functionality": function(browser) {
         signInPage = browser.page.loginPage()
         landingPage = browser.page.landingPage()
-        moviesCollections = browser.page.movies()
+        moviesCollectionsPage = browser.page.moviesCollectionsPage()
         browser.maximizeWindow()
 
         signInPage.navigate()
         .signIn();
         landingPage.clickMoviesCollections();
-        moviesCollections.validateHeader();
+        moviesCollectionsPage.validateHeader()
+        moviesCollectionsPage.validateCurrentWindow();
         browser.end();
     },
-
-    "Validate movies ForSale functionality": '' + function(browser) {
+    "Validate movies - For Sale functionality": function(browser) {
         signInPage = browser.page.loginPage()
         landingPage = browser.page.landingPage()
-        moviesForSale = browser.page.movies()
+        moviesForSalePage = browser.page.moviesForSalePage()
         browser.maximizeWindow()
 
         signInPage.navigate()
         .signIn();
         landingPage.clickMoviesForSale();
-        moviesForSale.validateHeader();
+        moviesForSalePage.validateHeader()
+        moviesForSalePage.validateCurrentWindow();
         browser.end();
     }
-
-    
 }

@@ -1,4 +1,5 @@
 // Login page functionalities
+
 const commands = {  
   signIn: function () {
     return this.click('@signInButton')
