@@ -1,5 +1,5 @@
 {
-  "google_test:google_test#Demo Google test" : {
+  "signInTests:signInTests#Login with valid credentials" : {
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
@@ -9,15 +9,15 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5524240c01fc5d0d",
+      "uid" : "d8d8019b6604294",
       "status" : "failed",
-      "statusDetails" : "Timed out while waiting for element <button[name=btnG]> to be visible for 1000 milliseconds.",
+      "statusDetails" : "Timed out while waiting for element <div.rb-header__greeting> to be present for 10000 milliseconds.",
       "time" : {
-        "duration" : 7285
+        "duration" : 257100
       }
     } ]
   },
-  "github_test:github_test#Demo test GitHub" : {
+  "newReleasesTests:newReleasesTests#Validate new coming soon - movies functionality" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -27,10 +27,144 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2bc3588870b287c3",
+      "uid" : "2cfdb9e365b1992c",
       "status" : "passed",
       "time" : {
-        "duration" : 8239
+        "duration" : 14790
+      }
+    } ]
+  },
+  "moviesTests:moviesTests#Validate movies - Collections functionality" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b0d3b0bfbb0ff50e",
+      "status" : "passed",
+      "time" : {
+        "duration" : 14970
+      }
+    } ]
+  },
+  "signInTests:signInTests#Validate my account" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "734315c829ba9a4c",
+      "status" : "skipped",
+      "time" : { }
+    } ]
+  },
+  "newReleasesTests:newReleasesTests#Validate new release - movies functionality" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "939311f2ff337e3c",
+      "status" : "passed",
+      "time" : {
+        "duration" : 21950
+      }
+    } ]
+  },
+  "moviesTests:moviesTests#Validate movies - At the Box functionality" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c4ccd3ba5b174106",
+      "status" : "passed",
+      "time" : {
+        "duration" : 23130
+      }
+    } ]
+  },
+  "newReleasesTests:newReleasesTests#Validate new release - games functionality" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bcd24204ab6e7e30",
+      "status" : "passed",
+      "time" : {
+        "duration" : 15380
+      }
+    } ]
+  },
+  "moviesTests:moviesTests#Validate movies - On Demand functionality" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8ab76078565c443a",
+      "status" : "passed",
+      "time" : {
+        "duration" : 18580
+      }
+    } ]
+  },
+  "moviesTests:moviesTests#Validate movies - For Sale functionality" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "53c194913f229e21",
+      "status" : "passed",
+      "time" : {
+        "duration" : 11880
+      }
+    } ]
+  },
+  "newReleasesTests:newReleasesTests#Validate new coming soon - games functionality" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ae2de34220e99a99",
+      "status" : "passed",
+      "time" : {
+        "duration" : 17830
       }
     } ]
   }

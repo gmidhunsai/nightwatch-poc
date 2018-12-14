@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="checkoutTests"
+    errors="0" failures="1" hostname="" id="" package="checkoutTests" skipped="0"
+    tests="1" time="29.15" timestamp="Fri, 14 Dec 2018 16:37:02 GMT">
+  
+    <testcase name="Validate movies - On Demand - checkout functionality" classname="checkoutTests" time="29.15" assertions="16">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;svg.rb-checkbox&gt; to be present for 10000 milliseconds.">    at Page.verifyAgeCheckBox (C:\Users\v-midhun.gaddipati\Documents\Nightwatch automation\nightwatch-poc\tests\pages\moviesOnDemandCheckoutPage.js:19:10)
+    at Object.Validate movies - On Demand - checkout functionality (C:\Users\v-midhun.gaddipati\Documents\Nightwatch automation\nightwatch-poc\tests\e2e\checkoutTests.js:22:36)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

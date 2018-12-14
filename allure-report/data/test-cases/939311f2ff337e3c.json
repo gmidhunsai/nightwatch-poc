@@ -1,9 +1,9 @@
 {
-  "uid" : "2bc3588870b287c3",
-  "name" : "Demo test GitHub",
-  "historyId" : "github_test:github_test#Demo test GitHub",
+  "uid" : "939311f2ff337e3c",
+  "name" : "Validate new release - movies functionality",
+  "historyId" : "newReleasesTests:newReleasesTests#Validate new release - movies functionality",
   "time" : {
-    "duration" : 8239
+    "duration" : 21950
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,16 +14,16 @@
     "value" : "junit"
   }, {
     "name" : "suite",
-    "value" : "github_test"
+    "value" : "newReleasesTests"
   }, {
     "name" : "host",
     "value" : ""
   }, {
     "name" : "testClass",
-    "value" : "github_test"
+    "value" : "newReleasesTests"
   }, {
     "name" : "package",
-    "value" : "github_test"
+    "value" : "newReleasesTests"
   } ],
   "parameters" : [ ],
   "links" : [ ],
@@ -35,6 +35,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2bc3588870b287c3.json",
+  "source" : "939311f2ff337e3c.json",
   "parameterValues" : [ ]
 }

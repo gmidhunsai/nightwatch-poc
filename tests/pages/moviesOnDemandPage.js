@@ -8,6 +8,10 @@ const commands = {
     },
     validateCurrentWindow: function() {
         this.assert.containsText('@currentFocus', 'On Demand')
+    },
+    clickMovieListing: function() {
+      this.waitForElementVisible('@listingItem', 10000)
+      return this.click('@listingItem')
     }
   };
   
@@ -20,6 +24,11 @@ const commands = {
       currentFocus: 
       {
         selector: "//a[@class='rb-page-route__subnav__link ws:nowrap active']",
+        locateStrategy: 'xpath'
+      },
+      listingItem:
+      {
+        selector: "//div[@class='rb-browse-title'][2]",
         locateStrategy: 'xpath'
       }
     }

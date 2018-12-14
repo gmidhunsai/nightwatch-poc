@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="4"
+            failures="1"
+            tests="2">
+
+  <testsuite name="signInTests"
+    errors="4" failures="1" hostname="" id="" package="signInTests" skipped="1"
+    tests="2" time="257.1" timestamp="Wed, 12 Dec 2018 21:05:24 GMT">
+  
+    <testcase name="Login with valid credentials" classname="signInTests" time="257.1" assertions="1">  <failure message="Timed out while waiting for element &lt;div.rb-header__greeting&gt; to be present for 10000 milliseconds.">    at Page.validateSignIn (C:\Users\v-midhun.gaddipati\Documents\Nightwatch automation\nightwatch-poc\tests\pages\landingPage.js:5:12)
+    at Object.Login with valid credentials (C:\Users\v-midhun.gaddipati\Documents\Nightwatch automation\nightwatch-poc\tests\e2e\signInTests.js:10:21)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &#34;#myredbox&#34; using: css selector
+    at Page.click (C:\Users\v-midhun.gaddipati\AppData\Roaming\npm\node_modules\nightwatch\lib\page-object\command-wrapper.js:117:25)
+    at Page.signIn (C:\Users\v-midhun.gaddipati\Documents\Nightwatch automation\nightwatch-poc\tests\pages\loginPage.js:5:17)
+    at Object.Login with valid credentials (C:\Users\v-midhun.gaddipati\Documents\Nightwatch automation\nightwatch-poc\tests\e2e\signInTests.js:9:10)
+    at Module.call (C:\Users\v-midhun.gaddipati\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\v-midhun.gaddipati\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\v-midhun.gaddipati\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\v-midhun.gaddipati\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\v-midhun.gaddipati\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\v-midhun.gaddipati\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\v-midhun.gaddipati\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+ERROR: Unable to locate element: &#34;#userName&#34; using: css selector
+    at Page.setValue (C:\Users\v-midhun.gaddipati\AppData\Roaming\npm\node_modules\nightwatch\lib\page-object\command-wrapper.js:117:25)
+    at Page.signIn (C:\Users\v-midhun.gaddipati\Documents\Nightwatch automation\nightwatch-poc\tests\pages\loginPage.js:6:8)
+    at Object.Login with valid credentials (C:\Users\v-midhun.gaddipati\Documents\Nightwatch automation\nightwatch-poc\tests\e2e\signInTests.js:9:10)
+    at Module.call (C:\Users\v-midhun.gaddipati\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\v-midhun.gaddipati\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\v-midhun.gaddipati\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\v-midhun.gaddipati\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\v-midhun.gaddipati\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\v-midhun.gaddipati\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\v-midhun.gaddipati\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+ERROR: Unable to locate element: &#34;#password&#34; using: css selector
+    at Page.setValue (C:\Users\v-midhun.gaddipati\AppData\Roaming\npm\node_modules\nightwatch\lib\page-object\command-wrapper.js:117:25)
+    at Page.signIn (C:\Users\v-midhun.gaddipati\Documents\Nightwatch automation\nightwatch-poc\tests\pages\loginPage.js:7:8)
+    at Object.Login with valid credentials (C:\Users\v-midhun.gaddipati\Documents\Nightwatch automation\nightwatch-poc\tests\e2e\signInTests.js:9:10)
+    at Module.call (C:\Users\v-midhun.gaddipati\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\v-midhun.gaddipati\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\v-midhun.gaddipati\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\v-midhun.gaddipati\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\v-midhun.gaddipati\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\v-midhun.gaddipati\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\v-midhun.gaddipati\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+ERROR: Unable to locate element: &#34;//*[@id=&#34;root&#34;]/dialog[2]/div/div[1]/div[1]/form/button&#34; using: xpath
+    at Page.click (C:\Users\v-midhun.gaddipati\AppData\Roaming\npm\node_modules\nightwatch\lib\page-object\command-wrapper.js:117:25)
+    at Page.signIn (C:\Users\v-midhun.gaddipati\Documents\Nightwatch automation\nightwatch-poc\tests\pages\loginPage.js:8:8)
+    at Object.Login with valid credentials (C:\Users\v-midhun.gaddipati\Documents\Nightwatch automation\nightwatch-poc\tests\e2e\signInTests.js:9:10)
+    at Module.call (C:\Users\v-midhun.gaddipati\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\v-midhun.gaddipati\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\v-midhun.gaddipati\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\v-midhun.gaddipati\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\v-midhun.gaddipati\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\v-midhun.gaddipati\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\v-midhun.gaddipati\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Validate my account" classname="signInTests">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

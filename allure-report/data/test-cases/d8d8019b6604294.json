@@ -1,0 +1,46 @@
+{
+  "uid" : "d8d8019b6604294",
+  "name" : "Login with valid credentials",
+  "historyId" : "signInTests:signInTests#Login with valid credentials",
+  "time" : {
+    "duration" : 257100
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out while waiting for element <div.rb-header__greeting> to be present for 10000 milliseconds.",
+  "statusTrace" : "    at Page.validateSignIn (C:\\Users\\v-midhun.gaddipati\\Documents\\Nightwatch automation\\nightwatch-poc\\tests\\pages\\landingPage.js:5:12)\n    at Object.Login with valid credentials (C:\\Users\\v-midhun.gaddipati\\Documents\\Nightwatch automation\\nightwatch-poc\\tests\\e2e\\signInTests.js:10:21)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "signInTests"
+  }, {
+    "name" : "host",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "signInTests"
+  }, {
+    "name" : "package",
+    "value" : "signInTests"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d8d8019b6604294.json",
+  "parameterValues" : [ ]
+}

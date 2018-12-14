@@ -1,0 +1,40 @@
+{
+  "uid" : "8ab76078565c443a",
+  "name" : "Validate movies - On Demand functionality",
+  "historyId" : "moviesTests:moviesTests#Validate movies - On Demand functionality",
+  "time" : {
+    "duration" : 18580
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "moviesTests"
+  }, {
+    "name" : "host",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "moviesTests"
+  }, {
+    "name" : "package",
+    "value" : "moviesTests"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8ab76078565c443a.json",
+  "parameterValues" : [ ]
+}

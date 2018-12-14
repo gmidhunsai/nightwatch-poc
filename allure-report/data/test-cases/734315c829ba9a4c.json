@@ -1,0 +1,39 @@
+{
+  "uid" : "734315c829ba9a4c",
+  "name" : "Validate my account",
+  "historyId" : "signInTests:signInTests#Validate my account",
+  "time" : { },
+  "status" : "skipped",
+  "statusTrace" : "",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "signInTests"
+  }, {
+    "name" : "host",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "signInTests"
+  }, {
+    "name" : "package",
+    "value" : "signInTests"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "734315c829ba9a4c.json",
+  "parameterValues" : [ ]
+}

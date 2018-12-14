@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="4">
+
+  <testsuite name="moviesTests"
+    errors="0" failures="0" hostname="" id="" package="moviesTests" skipped="0"
+    tests="4" time="68.56" timestamp="Wed, 12 Dec 2018 21:05:24 GMT">
+  
+    <testcase name="Validate movies - At the Box functionality" classname="moviesTests" time="23.13" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Validate movies - On Demand functionality" classname="moviesTests" time="18.58" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Validate movies - Collections functionality" classname="moviesTests" time="14.97" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Validate movies - For Sale functionality" classname="moviesTests" time="11.88" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

@@ -1,26 +1,37 @@
 {
-  "total" : 2,
+  "total" : 3,
   "items" : [ {
-    "uid" : "01bd83c023f313ec09483909702cd70c",
-    "name" : "google_test",
+    "uid" : "4aef5b01dda029f4ce29bb46dd1a6663",
+    "name" : "signInTests",
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
-      "skipped" : 0,
+      "skipped" : 1,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     }
   }, {
-    "uid" : "0d25a5d63783df2959abfac02b3dfef5",
-    "name" : "github_test",
+    "uid" : "1b9a56189de6ede1b91d959739dd9840",
+    "name" : "newReleasesTests",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 1
+      "total" : 4
+    }
+  }, {
+    "uid" : "d512c950d71ed7d3dc9a4dc323b97b02",
+    "name" : "moviesTests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
     }
   } ]
 }

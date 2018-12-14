@@ -1,0 +1,40 @@
+{
+  "uid" : "bcd24204ab6e7e30",
+  "name" : "Validate new release - games functionality",
+  "historyId" : "newReleasesTests:newReleasesTests#Validate new release - games functionality",
+  "time" : {
+    "duration" : 15380
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "newReleasesTests"
+  }, {
+    "name" : "host",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "newReleasesTests"
+  }, {
+    "name" : "package",
+    "value" : "newReleasesTests"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bcd24204ab6e7e30.json",
+  "parameterValues" : [ ]
+}

@@ -2,32 +2,114 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "github_test",
+    "name" : "newReleasesTests",
     "children" : [ {
-      "name" : "Demo test GitHub",
-      "uid" : "2bc3588870b287c3",
-      "parentUid" : "0d25a5d63783df2959abfac02b3dfef5",
+      "name" : "Validate new coming soon - games functionality",
+      "uid" : "ae2de34220e99a99",
+      "parentUid" : "1b9a56189de6ede1b91d959739dd9840",
       "status" : "passed",
       "time" : {
-        "duration" : 8239
+        "duration" : 17830
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Validate new release - games functionality",
+      "uid" : "bcd24204ab6e7e30",
+      "parentUid" : "1b9a56189de6ede1b91d959739dd9840",
+      "status" : "passed",
+      "time" : {
+        "duration" : 15380
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Validate new coming soon - movies functionality",
+      "uid" : "2cfdb9e365b1992c",
+      "parentUid" : "1b9a56189de6ede1b91d959739dd9840",
+      "status" : "passed",
+      "time" : {
+        "duration" : 14790
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Validate new release - movies functionality",
+      "uid" : "939311f2ff337e3c",
+      "parentUid" : "1b9a56189de6ede1b91d959739dd9840",
+      "status" : "passed",
+      "time" : {
+        "duration" : 21950
       },
       "flaky" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "0d25a5d63783df2959abfac02b3dfef5"
+    "uid" : "1b9a56189de6ede1b91d959739dd9840"
   }, {
-    "name" : "google_test",
+    "name" : "moviesTests",
     "children" : [ {
-      "name" : "Demo Google test",
-      "uid" : "5524240c01fc5d0d",
-      "parentUid" : "01bd83c023f313ec09483909702cd70c",
+      "name" : "Validate movies - At the Box functionality",
+      "uid" : "c4ccd3ba5b174106",
+      "parentUid" : "d512c950d71ed7d3dc9a4dc323b97b02",
+      "status" : "passed",
+      "time" : {
+        "duration" : 23130
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Validate movies - Collections functionality",
+      "uid" : "b0d3b0bfbb0ff50e",
+      "parentUid" : "d512c950d71ed7d3dc9a4dc323b97b02",
+      "status" : "passed",
+      "time" : {
+        "duration" : 14970
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Validate movies - For Sale functionality",
+      "uid" : "53c194913f229e21",
+      "parentUid" : "d512c950d71ed7d3dc9a4dc323b97b02",
+      "status" : "passed",
+      "time" : {
+        "duration" : 11880
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Validate movies - On Demand functionality",
+      "uid" : "8ab76078565c443a",
+      "parentUid" : "d512c950d71ed7d3dc9a4dc323b97b02",
+      "status" : "passed",
+      "time" : {
+        "duration" : 18580
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d512c950d71ed7d3dc9a4dc323b97b02"
+  }, {
+    "name" : "signInTests",
+    "children" : [ {
+      "name" : "Login with valid credentials",
+      "uid" : "d8d8019b6604294",
+      "parentUid" : "4aef5b01dda029f4ce29bb46dd1a6663",
       "status" : "failed",
       "time" : {
-        "duration" : 7285
+        "duration" : 257100
       },
       "flaky" : false,
       "parameters" : [ ]
+    }, {
+      "name" : "Validate my account",
+      "uid" : "734315c829ba9a4c",
+      "parentUid" : "4aef5b01dda029f4ce29bb46dd1a6663",
+      "status" : "skipped",
+      "time" : { },
+      "flaky" : false,
+      "parameters" : [ ]
     } ],
-    "uid" : "01bd83c023f313ec09483909702cd70c"
+    "uid" : "4aef5b01dda029f4ce29bb46dd1a6663"
   } ]
 }

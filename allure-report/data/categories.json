@@ -4,19 +4,19 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Timed out while waiting for element <button[name=btnG]> to be visible for 1000 milliseconds.",
+      "name" : "Timed out while waiting for element <div.rb-header__greeting> to be present for 10000 milliseconds.",
       "children" : [ {
-        "name" : "Demo Google test",
-        "uid" : "5524240c01fc5d0d",
-        "parentUid" : "efbadef447c1628696584e4678d964ab",
+        "name" : "Login with valid credentials",
+        "uid" : "d8d8019b6604294",
+        "parentUid" : "758c919169dc471c805bdea3bb68b46c",
         "status" : "failed",
         "time" : {
-          "duration" : 7285
+          "duration" : 257100
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "efbadef447c1628696584e4678d964ab"
+      "uid" : "758c919169dc471c805bdea3bb68b46c"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]

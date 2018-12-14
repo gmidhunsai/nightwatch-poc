@@ -1,16 +1,78 @@
 [ {
-  "uid" : "5524240c01fc5d0d",
-  "name" : "Demo Google test",
+  "uid" : "2cfdb9e365b1992c",
+  "name" : "Validate new coming soon - movies functionality",
   "time" : {
-    "duration" : 7285
+    "duration" : 14790
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ab76078565c443a",
+  "name" : "Validate movies - On Demand functionality",
+  "time" : {
+    "duration" : 18580
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8d8019b6604294",
+  "name" : "Login with valid credentials",
+  "time" : {
+    "duration" : 257100
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "2bc3588870b287c3",
-  "name" : "Demo test GitHub",
+  "uid" : "734315c829ba9a4c",
+  "name" : "Validate my account",
+  "time" : { },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "b0d3b0bfbb0ff50e",
+  "name" : "Validate movies - Collections functionality",
   "time" : {
-    "duration" : 8239
+    "duration" : 14970
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4ccd3ba5b174106",
+  "name" : "Validate movies - At the Box functionality",
+  "time" : {
+    "duration" : 23130
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae2de34220e99a99",
+  "name" : "Validate new coming soon - games functionality",
+  "time" : {
+    "duration" : 17830
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "939311f2ff337e3c",
+  "name" : "Validate new release - movies functionality",
+  "time" : {
+    "duration" : 21950
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53c194913f229e21",
+  "name" : "Validate movies - For Sale functionality",
+  "time" : {
+    "duration" : 11880
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bcd24204ab6e7e30",
+  "name" : "Validate new release - games functionality",
+  "time" : {
+    "duration" : 15380
   },
   "status" : "passed",
   "severity" : "normal"

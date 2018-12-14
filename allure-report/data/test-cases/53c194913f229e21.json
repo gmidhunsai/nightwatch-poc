@@ -1,0 +1,40 @@
+{
+  "uid" : "53c194913f229e21",
+  "name" : "Validate movies - For Sale functionality",
+  "historyId" : "moviesTests:moviesTests#Validate movies - For Sale functionality",
+  "time" : {
+    "duration" : 11880
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "moviesTests"
+  }, {
+    "name" : "host",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "moviesTests"
+  }, {
+    "name" : "package",
+    "value" : "moviesTests"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "53c194913f229e21.json",
+  "parameterValues" : [ ]
+}

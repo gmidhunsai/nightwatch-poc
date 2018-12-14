@@ -1,0 +1,40 @@
+{
+  "uid" : "c4ccd3ba5b174106",
+  "name" : "Validate movies - At the Box functionality",
+  "historyId" : "moviesTests:moviesTests#Validate movies - At the Box functionality",
+  "time" : {
+    "duration" : 23130
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "moviesTests"
+  }, {
+    "name" : "host",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "moviesTests"
+  }, {
+    "name" : "package",
+    "value" : "moviesTests"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c4ccd3ba5b174106.json",
+  "parameterValues" : [ ]
+}

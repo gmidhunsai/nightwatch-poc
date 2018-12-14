@@ -1,0 +1,40 @@
+{
+  "uid" : "b0d3b0bfbb0ff50e",
+  "name" : "Validate movies - Collections functionality",
+  "historyId" : "moviesTests:moviesTests#Validate movies - Collections functionality",
+  "time" : {
+    "duration" : 14970
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "moviesTests"
+  }, {
+    "name" : "host",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "moviesTests"
+  }, {
+    "name" : "package",
+    "value" : "moviesTests"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b0d3b0bfbb0ff50e.json",
+  "parameterValues" : [ ]
+}

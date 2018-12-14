@@ -1,0 +1,40 @@
+{
+  "uid" : "ae2de34220e99a99",
+  "name" : "Validate new coming soon - games functionality",
+  "historyId" : "newReleasesTests:newReleasesTests#Validate new coming soon - games functionality",
+  "time" : {
+    "duration" : 17830
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "newReleasesTests"
+  }, {
+    "name" : "host",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "newReleasesTests"
+  }, {
+    "name" : "package",
+    "value" : "newReleasesTests"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ae2de34220e99a99.json",
+  "parameterValues" : [ ]
+}

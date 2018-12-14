@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="4">
+
+  <testsuite name="newReleasesTests"
+    errors="0" failures="0" hostname="" id="" package="newReleasesTests" skipped="0"
+    tests="4" time="69.94" timestamp="Wed, 12 Dec 2018 21:05:24 GMT">
+  
+    <testcase name="Validate new release - movies functionality" classname="newReleasesTests" time="21.95" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Validate new release - games functionality" classname="newReleasesTests" time="15.38" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Validate new coming soon - movies functionality" classname="newReleasesTests" time="14.79" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Validate new coming soon - games functionality" classname="newReleasesTests" time="17.83" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

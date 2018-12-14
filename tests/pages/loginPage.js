@@ -6,6 +6,12 @@ const commands = {
       .setValue('@userNameBox', 'pzsqaint@gmail.com')
       .setValue('@passwordBox', 'Redbox1!')
       .click('@submitButton')
+  },
+  signInWithCredentials: function (userName, password) {
+    return this.click('@signInButton')
+      .setValue('@userNameBox', userName)
+      .setValue('@passwordBox', password)
+      .click('@submitButton')
   }
 };
 
